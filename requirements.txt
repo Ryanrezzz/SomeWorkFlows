@@ -1,0 +1,49 @@
+# ── Core LangChain & LangGraph ──────────────────────────────
+langgraph
+langchain
+langchain-core
+langchain-community
+
+# ── LLM Providers ──────────────────────────────────────────
+langchain-openai          # OpenAI / Azure OpenAI
+langchain-groq            # Groq (fast inference)
+langchain-google-genai    # Google Gemini
+langchain-anthropic       # Anthropic Claude
+langchain-ollama          # Local models via Ollama
+
+# ── Embeddings & Vector Stores ─────────────────────────────
+langchain-chroma          # ChromaDB vector store
+faiss-cpu                 # FAISS vector search
+sentence-transformers     # HuggingFace embeddings
+
+# ── Tools & Search ─────────────────────────────────────────
+langchain-experimental    # Experimental chains & tools
+tavily-python             # Tavily web search tool
+duckduckgo-search         # DuckDuckGo search tool
+wikipedia                 # Wikipedia tool
+
+# ── Document Loaders & Parsers ─────────────────────────────
+pypdf                     # PDF loading
+unstructured              # Universal doc parsing
+beautifulsoup4            # HTML parsing
+
+# ── Checkpointing & Memory ─────────────────────────────────
+langgraph-checkpoint          # Graph checkpointing
+langgraph-checkpoint-sqlite   # SQLite checkpoint backend
+
+# ── Observability & Tracing ────────────────────────────────
+langsmith                 # LangSmith tracing & eval
+
+# ── Environment & Utilities ────────────────────────────────
+python-dotenv             # .env file loading
+pydantic                  # Data validation & schemas
+tiktoken                  # OpenAI tokenizer
+httpx                     # Async HTTP client
+
+# ── UI & Visualization ────────────────────────────────────
+streamlit                 # Quick agent UIs
+gradio                    # Alternative UI framework
+
+# ── Jupyter / Notebooks ───────────────────────────────────
+jupyter                   # Notebook environment
+ipykernel                 # Jupyter kernel
